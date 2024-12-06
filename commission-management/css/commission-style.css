@@ -1,0 +1,60 @@
+table#table-child-commission thead th, 
+table#table-school-commission thead th, 
+table#table-class-commission thead th,
+table#table-admin-commission thead th {
+    text-align: center;
+}
+table#table-admin-commission tbody td:nth-child(5), 
+table#table-admin-commission tbody td:nth-child(6), 
+table#table-admin-commission tbody td:nth-child(7), 
+table#table-admin-commission tbody td:nth-child(8), 
+table#table-admin-commission tbody td:nth-child(9), 
+table#table-child-commission tbody td:nth-child(3), 
+table#table-child-commission tbody td:nth-child(4), 
+table#table-child-commission tbody td:nth-child(5), 
+table#table-class-commission tbody td:nth-child(3), 
+table#table-class-commission tbody td:nth-child(4), 
+table#table-class-commission tbody td:nth-child(5), 
+table#table-school-commission tbody td:nth-child(5), 
+table#table-school-commission tbody td:nth-child(6), 
+table#table-school-commission tbody td:nth-child(7), 
+table#table-school-commission tbody td:nth-child(8) {
+    text-align: center;
+}
+.school-commission { 
+    display: none;
+}
+.redirect-back { margin-top: 10px;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+.redirect-back:hover {
+    color: #135e96;
+}
+
+.zg-sale-details{
+    background-color:#fff;
+    margin-bottom:30px;
+}
+
+.zg-saleblock{
+    background-color:#f6f6f6;
+    padding:18px;
+    display:block;
+}
+
+.zg-saleblock span{display:block; font-weight:600; margin-bottom:5px;}
+.zg-saleblock label{ font-size:24px; color:#00A0E3; font-weight:bold; }
+.date-range-filter{ margin-bottom:30px; display:flex; align-items:center;}
+.date-range-filter label{ font-weight:600; }
+.date-range-filter .hasDatepicker{ margin:0 30px 0 15px; }
+.date-range-filter #sort-date-range{ margin-left:30px }
+.date-range-filter #commission-type{ margin-left:15px; min-width:200px; min-height:34px; } 
+.redirect-back{ margin-bottom:15px; }
+label.school-commission { margin-left: 30px; margin-right: 15px; }
+table.dataTable{ border:1px solid #c3c4c7; box-shadow: 0 1px 1px rgba(0,0,0,.04); font-size:14px}
+table.dataTable>tbody>tr.odd>*{ box-shadow:none!important; background-color:#f6f7f7!important  }
+table.dataTable>tbody>tr.odd{ background-color:#f6f7f7!important }
+.active>.page-link, .page-link.active{ color:#fff!important; background-color:#2271b1!important; border-color:#2271b1!important}
+.page-link{ color:#2271b1!important;}
